@@ -1,0 +1,208 @@
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+@import url('https://fonts.cdnfonts.com/css/manrope');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    height: 120vh;
+}
+
+.payment-plan {
+    width: 100vw;
+}
+
+.payment-plan {
+    width: 100vw;
+}
+
+.payment-plan h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.payment-plan span {
+    display: block;
+    color: #1D4ED8;
+}
+
+.payment-plan p {
+    color: #191D23;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.payment-plan #toggle {
+    margin-top: 40px;
+    margin-left: 7.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.discount img {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.discount {
+    margin-top: 50px;
+    display: flex;
+}
+
+.discount p {
+    margin-top: 50px;
+    color: #1D4ED8;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.plans {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.plan {
+    width: 25%;
+    height: 75vh;
+    padding-left: 1.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.plan h4 {
+    color: #191D23;
+    font-size: 22px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.plan p {
+    text-align: left;
+    color: #64748B;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.payment-price {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.payment-price h3 {
+    font-family: 'Manrope', sans-serif;
+    color: #191D23;
+    font-size: 56px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.payment-price p {
+    color: #4B5768;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.plan button {
+    color: #1D4ED8;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 90%;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #1D4ED8;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.plan2 {
+    background-color: #1d4ed8;
+}
+
+.plan2 button {
+    background-color: #fff;
+}
+
+.plan2 p,
+.plan2 h3,
+.plan2 h4 {
+    color: white;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.img-cont {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.benefit p {
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.wrong {
+    background-color: #F7F8F9;
+}
+
+.correct {
+    background-color: #E8EDFB;
+}
+
+.correct .advantage {
+    color: #191D23;
+}
+
+.wrong {
+    color: #A0ABBB;
+}
+
+
+.benefit .disadvantage {
+    color: #A0ABBB;
+}
+
+.plan2 p,
+.plan2 h3,
+.plan2 h4,
+.plan2 .disadvantage {
+    color: white;
+}
